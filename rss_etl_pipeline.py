@@ -9,7 +9,7 @@ import re
 # Инициализация NLTK (скачиваем все необходимые данные)
 nltk.download('punkt')
 nltk.download('stopwords')
-nltk.download('punkt_tab')  # Добавляем этот важный ресурс
+nltk.download('punkt_tab') 
 
 def extract_keywords(text, lang='english', top_n=5):
     """Извлекаем ключевые слова из текста."""
